@@ -1,3 +1,8 @@
+:root {
+  --header-height: 4em;
+  --footer-height: 2em;
+}
+
 html, body {
   height: 100vh;
 }
@@ -16,9 +21,14 @@ html {
 }
 
 #header {
+  height: var(--header-height);
   font-size: 3em;
 }
 
 #content {
-  height: 100%;
+  height: calc(calc(100vh - var(--footer-height)) - var(--header-height));
+}
+
+#footer {
+  height: var(--footer-height);
 }
