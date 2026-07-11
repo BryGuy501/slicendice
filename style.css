@@ -1,6 +1,6 @@
 :root {
-  --header-height: 4em;
-  --footer-height: 2em;
+  --header-height: 20vh;
+  --footer-height: 10vh;
 }
 
 html, body {
@@ -21,7 +21,7 @@ html {
 }
 
 #header {
-  height: 4em;
+  height: var(--header-height);
   font-size: 3em;
 }
 
