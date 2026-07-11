@@ -21,7 +21,7 @@ html {
 }
 
 #header {
-  height: var(--header-height);
+  height: 4em;
   font-size: 3em;
 }
 
