@@ -13,9 +13,7 @@ html, body {
   color: var(--text-color);
   background-color: var(--background-color);
   text-align: center;
-}
-
-body {
+  padding: 0px;
   margin: 0px;
 }
 
