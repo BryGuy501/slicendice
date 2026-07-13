@@ -12,6 +12,7 @@ html, body {
   height: 100vh;
   color: var(--text-color);
   background-color: var(--background-color);
+  text-align: center;
 }
 
 body {
