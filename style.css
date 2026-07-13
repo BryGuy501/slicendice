@@ -18,6 +18,7 @@ html, body {
 html {
   border-collapse: collapse;
   overflow: hidden;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {
@@ -27,8 +28,10 @@ body {
   overflow: auto;
 }
 
-html {
-  font-family: "Lucida Console", "Courier New", monospace;
+#container {
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
 }
 
 #header, #footer {
