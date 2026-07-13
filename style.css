@@ -42,7 +42,7 @@ body {
 }
 
 #header {
-  height: var(--header-height);
+  /*height: var(--header-height);*/
 }
 
 #content {
@@ -50,7 +50,7 @@ body {
 }
 
 #footer {
-  height: var(--footer-height);
+  /*height: var(--footer-height);*/
 }
 
 #swatches {
