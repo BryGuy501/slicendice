@@ -46,7 +46,8 @@ body {
 }
 
 #content {
-  min-height: calc(calc(100vh - var(--footer-height)) - var(--header-height));
+  /*min-height: calc(calc(100vh - var(--footer-height)) - var(--header-height));*/
+  flex-grow: 1;
 }
 
 #footer {
