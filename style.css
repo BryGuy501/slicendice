@@ -39,3 +39,28 @@ html {
 #footer {
   height: var(--footer-height);
 }
+
+#swatches td {
+  height: 2em;
+  width: 2em;
+}
+
+#text {
+  background-color: var(--text-color);
+}
+
+#background {
+  background-color: var(--background-color);
+}
+
+#primary {
+  background-color: var(--primary-color);
+}
+
+#accent {
+  background-color: var(--accent-color);
+}
+
+#secondary {
+  background-color: var(--secondary-color);
+}
