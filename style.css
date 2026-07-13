@@ -29,7 +29,6 @@ html {
 
 #header {
   height: var(--header-height);
-  font-size: 3em;
 }
 
 #content {
