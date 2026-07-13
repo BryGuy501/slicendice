@@ -30,7 +30,7 @@ html {
 }
 
 #content {
-  height: calc(calc(100vh - var(--footer-height)) - var(--header-height));
+  min-height: calc(calc(100vh - var(--footer-height)) - var(--header-height));
 }
 
 #footer {
