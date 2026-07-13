@@ -1,10 +1,17 @@
 :root {
   --header-height: 20vh;
   --footer-height: 10vh;
+  --text-color: #150f10;
+  --background-color: #f7f4f4;
+  --primary-color: #8aa89d;
+  --accent-color: #f89b13;
+  --secondary-color: #f89b13;
 }
 
 html, body {
   height: 100vh;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 body {
@@ -16,8 +23,8 @@ html {
 }
 
 #header, #footer {
-  background-color: black;
-  color: white;
+  /*background-color: black;
+  color: white;*/
 }
 
 #header {
