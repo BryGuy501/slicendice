@@ -36,6 +36,11 @@ body {
   flex-direction: column;
 }
 
+#header, #content, #footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 #header, #footer {
   background-color: var(--primary-color);
   color: var(--accent-color);
