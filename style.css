@@ -9,7 +9,7 @@
 }
 
 html, body {
-  height: 100vh;
+  height: 100%;
   color: var(--text-color);
   background-color: var(--background-color);
   text-align: center;
