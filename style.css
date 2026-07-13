@@ -41,7 +41,7 @@ html {
 }
 
 #swatches {
-  display: block;
+  margin: auto;
 }
 
 #swatches td {
