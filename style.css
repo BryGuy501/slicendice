@@ -15,10 +15,16 @@ html, body {
   min-height: 100% !important;
 }
 
+html {
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
 body {
   color: var(--text-color);
   background-color: var(--background-color);
   text-align: center;
+  overflow: auto;
 }
 
 html {
